@@ -2,6 +2,11 @@
 
 :root {
     --main-color: #3778FA;
+    --secundary-color: #f3f3f3;
+    --background-color: #FFFFFF;
+    --question-color: #222222;
+    --response-color: #65676C;
+    --minus-color: #936EFE;
 }
 
 *{
@@ -58,5 +63,115 @@ header{
 }
 .photo img{
     max-width: 100%;
+}
 
+#middle-title{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#middle-section{
+    margin-bottom: 6.875rem;
+}
+
+#bottom-section{
+    margin-bottom: 6.25rem;
+}
+
+#bottom-title{
+    text-align: center;
+    font-size: 1.25rem;
+    max-width: 80%;
+    margin-bottom: 1.875rem;
+}
+
+#bottom-content{
+    justify-items: center;
+}
+
+.bottom-photo{
+    margin-bottom: 2.5rem;
+}
+
+#bottom-box{
+    background-color: var(--secundary-color);
+    justify-items: center;
+    padding-top: 3rem;
+    padding-bottom: 4.375rem;
+    border-radius: 1.25rem;
+}
+
+#bottom-box-content{
+    justify-items: center;
+    max-width: 90%;
+}
+
+#question-block-open{
+    padding: 0.5rem 0.625rem 0.625rem 0.625rem;
+
+}
+
+.question-block{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    gap: 0.5rem;
+}
+
+.question-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--question-color);
+}
+
+.icon-minus{
+    color: var(--minus-color);
+}
+
+.question-response{
+    color: var(--response-color);
+    font-size: 0.625rem;
+    max-width: 65%;
+}
+
+#question-blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+#footer-section{
+    background-color: var(--main-color);
+    color: var(--background-color);
+    padding-top: 4.25rem;
+    border-start-end-radius: 1.25rem;
+    border-start-start-radius: 1.25rem;
+}
+
+.footer-top-content h2{
+    font-size: 2.875rem;
+    font-weight: 500;
+    max-width: 70%;
+    margin-bottom: 1.25rem;
+}
+
+.footer-top-content p{
+    font-size: 0.875rem;
+    font-weight: 100;
+    max-width: 75%;
+    margin-bottom: 1.6rem;
+}
+
+.learn-more{
+    background-color: var(--background-color);
+    color: #000000;
 }
